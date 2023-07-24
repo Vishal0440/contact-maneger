@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+}
+.form{
+    margin: 0 auto;
+    width: 400px;
+    height: 400px;
+    background-color: yellowgreen;
+}
+.form-wrapper label{
+    font-size: 2rem;
+    font-weight: 600;
+}
+.form-wrapper input{
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 8px;
+}
+.btn{
+    width: 100%;
+    padding: 8px;
+    margin-top: 1rem;
+}
+.btn-danger{
+    background-color: red;
+    margin: 5px;
+    border: none;
+}
+.check:checked{
+    text-decoration: line-through;
+    color: tomato;
+}
